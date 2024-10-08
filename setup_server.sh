@@ -3,6 +3,9 @@
 # Make this script executable
 chmod +x "$0"
 
+# Make new directories for script to be placed
+mkdir -p /.bin/projects
+
 # Path to the ASCII art script
 ASCII_SCRIPT="/.bin/projects/mc_server.sh"
 
