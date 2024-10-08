@@ -9,6 +9,9 @@ mkdir -p /.bin/projects
 # Path to the ASCII art script
 ASCII_SCRIPT="/.bin/projects/mc_server.sh"
 
+# Move the mc_server file to the new directory
+mv ./mc_server.sh "$ASCII_SCRIPT"
+
 # Make the ASCII art script executable
 chmod +x "$ASCII_SCRIPT"
 
