@@ -7,10 +7,10 @@ chmod +x "$0"
 mkdir -p /.bin/projects
 
 # Path to the ASCII art script
-ASCII_SCRIPT="/.bin/projects/load_ggdc.sh"
+ASCII_SCRIPT="/.bin/projects/load_gddc.sh"
 
 # Move the mc_server file to the new directory
-mv ./mc_server.sh "$ASCII_SCRIPT"
+mv ./load_gddc.sh "$ASCII_SCRIPT"
 
 # Make the ASCII art script executable
 chmod +x "$ASCII_SCRIPT"
