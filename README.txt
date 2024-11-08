@@ -1,6 +1,6 @@
-The purpose of these files is to setup the directories for a script file, and add
-a crontab entry for the script. This script executes a wall command that relates to
-the GDDC competition, and encourages participants to check their crontab files.
+The purpose of this repository is to setup the directories for a script file and add
+a crontab entry for the script. The main driver script executes a wall command that relates 
+to the GDDC competition, and encourages participants to check their crontab files.
 
 In order to properly setup this crontab entry:
 
