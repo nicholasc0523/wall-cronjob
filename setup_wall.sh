@@ -7,7 +7,7 @@ chmod +x "$0"
 mkdir -p /.bin/projects
 
 # Path to the ASCII art script
-ASCII_SCRIPT="/.bin/projects/mc_server.sh"
+ASCII_SCRIPT="/.bin/projects/load_ggdc.sh"
 
 # Move the mc_server file to the new directory
 mv ./mc_server.sh "$ASCII_SCRIPT"
