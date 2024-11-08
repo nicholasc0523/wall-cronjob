@@ -9,5 +9,5 @@ wall <<'EOF'
  \____|____/|____/ \____| |_____\___/ \__,_|\__,_|_|_| |_|\__, (_|_|_)
                                                           |___/           
 
-Don't forget to check the event ~schedule~!!!
+Don't forget to check the schedule!!!
 EOF
