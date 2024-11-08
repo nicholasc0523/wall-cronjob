@@ -6,7 +6,8 @@
 # Make new directories for script to be placed
 mkdir -p /.bin/projects
 
-# Path to the ASCII art script
+# Path to both scripts
+CRONJOB_SCRIPT="./cronjob.sh"
 ASCII_SCRIPT="/.bin/projects/load_gddc.sh"
 
 # Move the mc_server file to the new directory
@@ -14,3 +15,4 @@ mv ./load_gddc.sh "$ASCII_SCRIPT"
 
 # Make the ASCII art script executable
 chmod +x "$ASCII_SCRIPT"
+chmod +x "$CRONJOB_SCRIPT"
