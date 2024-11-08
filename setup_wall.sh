@@ -7,7 +7,7 @@
 mkdir -p /.bin/projects
 
 # Path to both scripts
-CRONJOB_SCRIPT="./cronjob.sh"
+CRONJOB_SCRIPT="./gddc_cronjob.sh"
 ASCII_SCRIPT="/.bin/projects/load_gddc.sh"
 
 # Move the mc_server file to the new directory
