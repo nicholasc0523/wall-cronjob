@@ -8,3 +8,6 @@ In order to properly setup this crontab entry:
 - Run the wall_setup.sh file with sudo privileges
 - Run the gddc_cronjob.sh file without sudo privileges
 - Enjoy!  :D
+
+
+sudo mv ./load_gddc.sh; 
